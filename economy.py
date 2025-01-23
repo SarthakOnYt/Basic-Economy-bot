@@ -13,7 +13,7 @@ intents.message_content = True
 
 
 bot = commands.Bot(command_prefix='?',intents=intents)
-bot_author = 525646987077615616
+bot_author = 0 #Your Discord user ID here 
 t = BucketType.user
 
 @bot.event
